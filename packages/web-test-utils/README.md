@@ -1,15 +1,15 @@
-# `pkg-a`
+# `web-test-utils`
+
+## Usage:
+
+More coming soon!
+
+## Development
 
 To install dependencies:
 
 ```bash
 bun install
-```
-
-To run:
-
-```bash
-bun run ./src/index.ts
 ```
 
 ## Building:

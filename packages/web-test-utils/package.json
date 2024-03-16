@@ -1,11 +1,11 @@
 {
-  "name": "pkg-a",
+  "name": "web-test-utils",
   "version": "0.0.1",
   "module": "index.ts",
   "exports": {
-    ".": {
-      "import": "./dist/index.js",
-      "types": "./dist/index.d.ts"
+    "./jest": {
+      "default": "./dist/jest.js",
+      "types": "./dist/jest.d.ts"
     }
   },
   "type": "module",

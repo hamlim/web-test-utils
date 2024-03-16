@@ -1,13 +1,11 @@
-# Template Monorepo
+# web-test-utils
 
-This is a template repo in GitHub for creating a fresh monorepo for managing code and documentation.
+A helpful utility for testing web applications end to end, without instrumenting the application itself.
 
-For more details on this setup, refer to my blog post here: https://matthamlin.me/2024/february/library-docs-monorepo-template
+> Test your application like real users do!
 
 ## Getting Started:
 
-- Use this template (see `Use this Template` button near the top right corner of the page)
-- Clone the newly created repo
 - Run `bun install` (if you don't have bun installed locally, refer to their [docs](https://bun.sh))
 - Start writing some code!
 
@@ -19,6 +17,7 @@ Since this is a `turborepo` monorepo, you can run some tasks across the repo wit
 - `type-check`
 - `lint`
 - `format`
+- `test`
 
 ## Tools:
 
