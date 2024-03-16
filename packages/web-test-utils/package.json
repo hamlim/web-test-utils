@@ -13,10 +13,8 @@
     "@swc/cli": "0.3.10",
     "@swc/core": "1.4.2",
     "@types/bun": "latest",
-    "oxlint": "0.2.12"
-  },
-  "peerDependencies": {
-    "typescript": "5.0.0"
+    "oxlint": "0.2.12",
+    "typescript": "5.4.2"
   },
   "scripts": {
     "prebuild": "rm -rf ./dist",
